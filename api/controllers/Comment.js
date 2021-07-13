@@ -15,6 +15,9 @@ exports.add_comment = async (req, res, next) => {
       });
     }
 
+
+
+    
     // create document for user in db
     const updateComment = new commentSchema({
       post_id: post_id,
